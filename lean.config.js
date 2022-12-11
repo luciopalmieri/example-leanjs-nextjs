@@ -4,7 +4,7 @@ const { createReactWebpackConfig } = require("@leanjs/webpack-react");
 module.exports = {
   devServer: {
     port: 33000,
-    disableHostCheck: true,
+    allowedHosts: "all",
   },
   webpack: {
     react: createReactWebpackConfig()
