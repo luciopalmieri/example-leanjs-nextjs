@@ -9,6 +9,7 @@
   "license": "MIT",
   "peerDependencies": {
     "@leanjs/react": "*",
+    "@leanjs/react-router": "*",
     "react": "*",
     "react-dom": "*"
   },

@@ -14,9 +14,9 @@
     "build": "turbo run build"
   },
   "devDependencies": {
-    "@leanjs/cli": "0.7.34",
-    "@leanjs/webpack": "0.21.4",
-    "@leanjs/webpack-react": "0.2.42",
+    "@leanjs/cli": "^0.7.37",
+    "@leanjs/webpack": "^0.21.7",
+    "@leanjs/webpack-react": "^0.2.45",
     "@swc/core": "^1.2.142",
     "@swc/jest": "^0.2.17",
     "@types/jest": "^27.4.0",
@@ -30,13 +30,16 @@
     "webpack": "^5.58.2"
   },
   "dependencies": {
-    "@leanjs/core": "0.25.0",
-    "@leanjs/next": "0.8.6",
-    "@leanjs/react": "0.19.1",
+    "@leanjs/core": "^0.26.1",
+    "@leanjs/next": "^0.8.10",
+    "@leanjs/react": "^0.20.2",
+    "@leanjs/react-router": "^0.13.10",
     "cors": "2.8.5",
     "next": "13.0.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "history": "5.3.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.5"
   },
   "engines": {
     "npm": ">=7.0.0",
